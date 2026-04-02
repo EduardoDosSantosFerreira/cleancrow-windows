@@ -1,0 +1,103 @@
+# Arquivos de build e dependências
+bin/
+obj/
+packages/
+*.user
+*.suo
+*.userprefs
+
+# Arquivos de log
+*.log
+logs/
+*.pid
+*.seed
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.cache
+*.vs/
+
+# Arquivos do Visual Studio
+.vs/
+.vscode/
+*.sln.ide
+*.sln.docstates
+
+# Arquivos de publicação
+publish/
+*.nupkg
+
+# Arquivos de usuário do Visual Studio
+*.csproj.user
+*.csproj.userprefs
+*.csproj.dotSettings
+*.sln.dotSettings
+
+# Arquivos de backup
+*~
+*.bak
+*.orig
+*.swp
+*.swo
+
+# Arquivos do ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Arquivos do Rider
+.idea/
+*.sln.iml
+
+# Arquivos de diagnóstico
+*.diag
+*.diaglog
+
+# Arquivos de cobertura de código
+*.coverage
+*.coveragexml
+*.coverlet
+
+# Arquivos de empacotamento
+*.nupkg
+*.snupkg
+
+# Arquivos de runtime
+*.runtimeconfig.json
+*.deps.json
+
+# Arquivos do Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Arquivos do macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Arquivos do Linux
+*~
+.directory
+*.swp
+*.swo
+
+# Configurações locais
+appsettings.Development.json
+appsettings.Production.json
+secrets.json
+
+# Mantém a pasta de imagens mas não os arquivos de log
+Resources/Images/
+!Resources/Images/*.png
+!Resources/Images/*.ico
+
+# Mantém os arquivos principais
+!*.cs
+!*.xaml
+!*.csproj
+!*.sln
+!*.md
+!*.ico
+!*.png
