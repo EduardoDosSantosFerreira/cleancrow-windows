@@ -24,9 +24,8 @@ logs/
 *.sln.ide
 *.sln.docstates
 
-# Arquivos de publicação
-publish/
-*.nupkg
+# Arquivos de publicação - NÃO ignora mais a pasta publish!
+# publish/  <-- COMENTADO para incluir a pasta
 
 # Arquivos de usuário do Visual Studio
 *.csproj.user
@@ -88,7 +87,7 @@ appsettings.Development.json
 appsettings.Production.json
 secrets.json
 
-# Mantém a pasta de imagens mas não os arquivos de log
+# Mantém as imagens
 Resources/Images/
 !Resources/Images/*.png
 !Resources/Images/*.ico
@@ -101,3 +100,9 @@ Resources/Images/
 !*.md
 !*.ico
 !*.png
+
+# Mantém os executáveis na pasta publish
+!publish/
+!publish/*.exe
+!publish/*.dll
+!publish/*.pdb
